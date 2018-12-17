@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin-ext');
+
+/************************************************************
+						GLOBAL STYLES
+************************************************************/
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	line-height: 1.4;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	color: #333;
+	background-color: #f3f3f3;
+	background-image: url("../img/bkg.png");
+}
+
+h1 {
+	margin: 0;
+	padding-left: 10px;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+small {
+	tab-size: 10px;
+}
+
+
+
+/************************************************************
+						 LAYOUTS
+************************************************************/
+@media all and (min-width: 768px) {
+	.container, .container-priprema {
+		width: 750px;
+		margin: 0 auto;
+	}
+	.col {
+		width: 50%;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.container, .container-priprema  {
+		width: 970px;
+	}
+	.col {
+		width: 33.333%;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	.container, .container-priprema  {
+		width: 1170px;
+	}
+	.col {
+		width: 20%;
+	}
+}
+
+
+/************************************************************
+						SPECIFIC STYLES
+************************************************************/
+
+                    /*********************
+							HEADER
+					*********************/
+.main-header {
+	padding: 30px 0;
+	background-color: #333333;
+}
+
+.main-header a {
+	text-decoration: none;
+	color: #e1e1e1;
+}
+
+.main-navigation {
+	padding-top: 18px;
+}
+
+.main-header a:hover {
+	color: #f93;
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+
+.main-navigation li {
+	float: left;
+	padding: 0 10px;
+	border-right: 1px solid #f1f1f1;
+	font-size: 18px;
+	line-height: 1;
+	padding-top: 2px;
+}
+
+.main-navigation li:last-child {
+	border-right: none;
+}
+
+					/*********************
+						  INTRO SECTION
+					*********************/
+.intro-section header {
+	line-height: 0;
+	position: relative;
+}
+
+.intro-section img {
+	width: 100%;
+}
+
+.intro-section h2 {
+	color: #e1e1e1;
+	font-size: 36px;
+	text-align: right;
+	position: absolute;
+	margin: 0;
+	right: 0;
+	top: 10%;
+	background-color: rgba(0, 0, 0, 0.3);
+	line-height: 1.2;
+	padding: 40px;
+}
+
+					/*********************
+						MENI CONTAINER
+					*********************/
+
+.meni-container img {
+	max-width: 50%;
+}
+
+
+
+.meni-container a:hover {
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+.col {
+	float: left;
+	padding: 30px 10px;
+}
+
+					/*********************
+							FOOTER
+					*********************/
+.main-footer {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,333333+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top, #000000 0%, #333333 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #000000 0%,#333333 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #000000 0%,#333333 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+
+color: #e1e1e1;
+padding: 44px 0 44px 10px;
+margin: 0;
+text-align: center;
+}
+
+.main-footer a {
+	color: #e1e1e1;
+}
+
+.main-footer a:hover {
+	color: #f93;
+	position: relative;
+	font-style: italic;
+}
+
+					/*********************
+					  CONTAINER-PRIPREMA
+					*********************/
+.container-priprema .img-holder img {
+	width: 100%;
+	padding: 50px 0;
+	line-height: 0;
+}
+
+.container-priprema .nav-holder {
+	position: relative;
+	padding: 0 0 50px 0;
+}
+
+.container-priprema a {
+	padding: 10px;
+	margin: 0 auto;
+	width: 180px;
+	border: 1px solid #f90;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #fff;
+	color: #333;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+}
+
+.container-priprema a:hover {
+	background-color: #f90;
+	color: #fff;
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+/************************************************************
+						HELPER CLASSES
+************************************************************/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
