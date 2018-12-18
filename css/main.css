@@ -38,10 +38,23 @@ small {
 /************************************************************
 						 LAYOUTS
 ************************************************************/
+@media all and (min-width: 576px) {
+	.container, .container-priprema {
+		width: 560px;
+		margin: 0 auto;
+	}
+	.col {
+		width: 75%;
+	}
+
+	.intro-section h2 {
+		font-size: 8px;
+		padding: 10px;
+}
+
 @media all and (min-width: 768px) {
 	.container, .container-priprema {
 		width: 750px;
-		margin: 0 auto;
 	}
 	.col {
 		width: 50%;
@@ -50,6 +63,13 @@ small {
 	.col:nth-of-type(2n+3) {
 		clear: both;
 	}
+
+	.intro-section h2 {
+		color: #e1e1e1;
+		font-size: 16px;
+		padding: 20px;
+
+
 }
 
 @media all and (min-width: 992px) {
@@ -67,6 +87,12 @@ small {
 	.col:nth-of-type(3n+4) {
 		clear: both;
 	}
+
+	.intro-section h2 {
+		font-size: 24px;
+		padding: 30px;
+
+
 }
 
 @media all and (min-width: 1200px) {
@@ -84,6 +110,10 @@ small {
 	.col:nth-of-type(5n+6) {
 		clear: both;
 	}
+
+	.intro-section h2 {
+		font-size: 36px;
+		padding: 40px;
 }
 
 
@@ -148,9 +178,10 @@ small {
 	width: 100%;
 }
 
+
 .intro-section h2 {
 	color: #e1e1e1;
-	font-size: 36px;
+	font-size: 8px;
 	text-align: right;
 	position: absolute;
 	margin: 0;
@@ -158,7 +189,8 @@ small {
 	top: 10%;
 	background-color: rgba(0, 0, 0, 0.3);
 	line-height: 1.2;
-	padding: 40px;
+	padding: 10px;
+
 }
 
 					/*********************
