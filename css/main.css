@@ -34,10 +34,10 @@ small {
 }
 
 
-
 /************************************************************
 						 LAYOUTS
 ************************************************************/
+
 @media all and (min-width: 768px) {
 	.container, .container-priprema {
 		width: 750px;
@@ -50,7 +50,6 @@ small {
 	.col:nth-of-type(2n+3) {
 		clear: both;
 	}
-}
 
 @media all and (min-width: 992px) {
 	.container, .container-priprema  {
