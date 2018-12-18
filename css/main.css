@@ -47,6 +47,10 @@ small {
 	.col {
 		width: 50%;
 	}
+
+	.col:nth-of-type(2n+3) {
+		clear: both;
+	}
 }
 
 @media all and (min-width: 992px) {
@@ -56,6 +60,14 @@ small {
 	.col {
 		width: 33.333%;
 	}
+
+	.col:nth-of-type(2n+3) {
+		clear: none;
+	}
+
+	.col:nth-of-type(3n+4) {
+		clear: both;
+	}
 }
 
 @media all and (min-width: 1200px) {
@@ -64,6 +76,14 @@ small {
 	}
 	.col {
 		width: 20%;
+	}
+
+	.col:nth-of-type(3n+4) {
+		clear: none;
+	}
+
+	.col:nth-of-type(5n+6) {
+		clear: both;
 	}
 }
 
@@ -86,7 +106,14 @@ small {
 }
 
 .main-navigation {
-	padding-top: 18px;
+	_padding-top: 18px;
+}
+
+.main-navigation ul {
+	float: right;
+	width: 40%;
+	display: flex;
+	padding-right: 30px;
 }
 
 .main-header a:hover {
