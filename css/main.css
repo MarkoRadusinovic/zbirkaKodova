@@ -157,6 +157,14 @@ small {
 	left: 2px;
 }
 
+.main-header .text-holder {
+	padding-top: 7px;
+}
+
+.main-header img {
+	width: 100%;
+}
+
 .main-navigation ul {
 	padding-top: 20px;
 }
@@ -166,7 +174,7 @@ small {
 	float: left;
 	padding: 0 10px;
 	border-right: 1px solid #f1f1f1;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1;
 	padding-top: 2px;
 }
