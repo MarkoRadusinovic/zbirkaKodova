@@ -41,7 +41,7 @@ small {
 
 @media all and (min-width: 576px) {
 	.container, .container-priprema {
-		width: 560px;
+		width: 540px;
 		margin: 0 auto;
 	}
 	.col {
@@ -133,55 +133,48 @@ small {
                     /*********************
 							HEADER
 					*********************/
-.main-header {
+.bg-light {
 	padding: 30px 0;
-	background-color: #333333;
+	background-color: #333333 !important;
 }
 
-.main-header .container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+.navbar-light .navbar-nav .nav-link {
+    color: #e1e1e1 !important;
 }
 
-.main-header a {
-	text-decoration: none;
-	color: #e1e1e1;
-}
-
-
-.main-header a:hover {
-	color: #f93;
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #f93 !important;
 	position: relative;
 	top: 2px;
 	left: 2px;
 }
 
-.main-header .text-holder {
-	padding-top: 7px;
+.nav-item {
+	border-right: 1px solid #f1f1f1 !important;
+	line-height: 1 !important;
 }
 
-.main-header img {
-	width: 100%;
+.nav-item:last-child {
+	border-right: none !important;
 }
 
-.main-navigation ul {
-	padding-top: 20px;
+.nav-item a {
+	padding: 0 10px !important;
+	font-size: 22px !important;
+	line-height: 1 !important;
+	padding-top: 2px !important;
 }
 
-
-.main-navigation li {
-	float: left;
-	padding: 0 10px;
-	border-right: 1px solid #f1f1f1;
-	font-size: 22px;
-	line-height: 1;
-	padding-top: 2px;
+#navigation ul {
+	padding-top: 10px;
 }
 
-.main-navigation li:last-child {
-	border-right: none;
+.navbar-light .navbar-toggler {
+    color: #f1f1f1 !important;
+    border-color: rgba(225, 225, 225, 1) !important;
+	background-color: rgba(225, 225, 225, 1) !important;
 }
+
 
 					/*********************
 						  INTRO SECTION
