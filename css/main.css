@@ -34,6 +34,10 @@ small {
 }
 
 
+.navbar-brand {
+	color: #e1e1e1 !important;
+	font-size: 1.8rem !important;
+}
 
 /************************************************************
 						 LAYOUTS
@@ -179,10 +183,6 @@ small {
 	background-color: rgba(225, 225, 225, 1) !important;
 }
 
-.navbar-brand {
-	color: #e1e1e1 !important;
-	font-size: 1.8rem !important;
-}
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #f93 !important;
