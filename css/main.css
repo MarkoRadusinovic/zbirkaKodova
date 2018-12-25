@@ -37,6 +37,7 @@ small {
 .navbar-brand {
 	color: #e1e1e1 !important;
 	font-size: 1.8rem !important;
+	text-transform: uppercase;
 }
 
 /************************************************************
