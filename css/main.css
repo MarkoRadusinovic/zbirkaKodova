@@ -58,6 +58,7 @@ small {
 
 	.intro-section h2 {
 		font-size: 26px;
+		color: #e1e1e1 !important;
 		background-color: rgba(0, 0, 0, 0.3);
 		padding: 40px;
 	}
@@ -203,7 +204,7 @@ small {
 
 
 .intro-section h2 {
-	color: #e1e1e1;
+	color: #f93;
 	text-align: right;
 	position: absolute;
 	margin: 0;
